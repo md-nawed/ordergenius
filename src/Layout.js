@@ -70,8 +70,6 @@ const Layout = ({ route }) => (
     */}
     <VisitorIdentification />
 
-    <Navigation />
-
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="container">
       <Placeholder name="jss-main" rendering={route} />
