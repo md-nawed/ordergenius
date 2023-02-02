@@ -10,6 +10,7 @@ import Helmet from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/app.css';
 import logo from './assets/sc_logo.svg';
+import SubNavMenu from './components/SubNavMenu';
 
 /*
   APP LAYOUT
@@ -71,7 +72,7 @@ const Layout = ({ route }) => (
     <VisitorIdentification />
 
     <Navigation />
-
+    <SubNavMenu />
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="container">
       <Placeholder name="jss-main" rendering={route} />

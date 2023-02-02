@@ -24,3 +24,7 @@ scjssconfig.json
 *.deploysecret.config
 /build-rendering-host
 .env
+/website/OrderGeniusWebApp/lib
+/website/OrderGeniusWebApp/packages
+/website/OrderGeniusWebApp/OrderGeniusWebApp/obj
+/website/OrderGeniusWebApp/OrderGeniusWebApp/bin
