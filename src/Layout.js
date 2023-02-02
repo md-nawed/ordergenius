@@ -10,6 +10,7 @@ import Helmet from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/app.css';
 import logo from './assets/sc_logo.svg';
+import SideMenu from './components/SideMenu';
 
 /*
   APP LAYOUT
@@ -71,6 +72,8 @@ const Layout = ({ route }) => (
     <VisitorIdentification />
 
     <Navigation />
+
+    <SideMenu />
 
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="container">
