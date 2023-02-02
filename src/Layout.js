@@ -10,6 +10,7 @@ import Helmet from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/app.css';
 import logo from './assets/sc_logo.svg';
+import Footer from './components/Footer';
 
 /*
   APP LAYOUT
@@ -76,6 +77,8 @@ const Layout = ({ route }) => (
     <div className="container">
       <Placeholder name="jss-main" rendering={route} />
     </div>
+
+    <Footer />
   </React.Fragment>
 );
 
